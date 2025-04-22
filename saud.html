@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Student Registration Form</title>
+  <link rel="stylesheet" href="style.css"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+</head>
+<body>
+  <div class="container">
+    <aside class="left-panel">
+      <i class="fas fa-book book-icon"></i>
+      <div class="institute-info">
+        <h2>Institute Name</h2>
+        <p>123 Main Street, City</p>
+        <p>Tel: (123) 456-7890</p>
+        <p>Email: info@institute.com</p>
+      </div>
+    </aside>
+
+    <main class="form-section">
+      <h1>Student Registration Form</h1>
+
+      <!-- Student Info -->
+      <div class="section">
+        <div class="section-title"><span class="dot"></span>Student Information</div>
+        <div class="form-group">
+          <label>Full Name:</label><input type="text">
+          <label>Date of Birth:</label><input type="date">
+          <label>Gender:</label><input type="text">
+          <label>Nationality:</label><input type="text">
+          <label>Contact Information:</label><input type="text">
+        </div>
+      </div>
+
+      <!-- Parent/Guardian Info -->
+      <div class="section">
+        <div class="section-title"><span class="dot"></span>Parent / Guardian Information</div>
+        <div class="form-group">
+          <label>Parent/Guardian Name(s):</label><input type="text">
+          <label>Relationship to Student:</label><input type="text">
+          <label>Contact (Phone & Email):</label><input type="text">
+          <label>Emergency Contact Info:</label><input type="text">
+        </div>
+      </div>
+
+      <!-- Education Info -->
+      <div class="section">
+        <div class="section-title"><span class="dot"></span>Education Information</div>
+        <div class="form-group">
+          <label>School/Institution Name:</label><input type="text">
+          <label>Graduation Date:</label><input type="date">
+          <label>How did you hear about us?</label><input type="text">
+          <label>Why are you interested in our program?</label><textarea></textarea>
+          <label>Agree to terms of enrollment?</label>
+          <div class="icon-row">
+            <i class="fas fa-thumbs-up"></i>
+            <i class="fas fa-thumbs-down"></i>
+          </div>
+        </div>
+      </div>
+
+      <!-- Signature -->
+      <div class="section">
+        <div class="section-title"><span class="dot"></span>Signatures</div>
+        <div class="form-group">
+          <label>Student Signature:</label><input type="text" placeholder="Sign here">
+          <label>Parent/Guardian Signature (if minor):</label><input type="text" placeholder="Sign here">
+        </div>
+      </div>
+
+      <button type="submit" class="submit-btn">Submit</button>
+    </main>
+  </div>
+</body>
+</html>

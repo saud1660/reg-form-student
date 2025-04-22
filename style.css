@@ -1,0 +1,107 @@
+* {
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+  }
+  
+  body {
+    margin: 0;
+    background: #f2f4f8;
+    color: #333;
+  }
+  
+  .container {
+    display: flex;
+    min-height: 100vh;
+  }
+  
+  .left-panel {
+    width: 25%;
+    background: #2e3b4e;
+    color: #fff;
+    padding: 30px;
+    text-align: center;
+  }
+  
+  .book-icon {
+    font-size: 50px;
+    margin-bottom: 20px;
+  }
+  
+  .institute-info h2 {
+    margin: 10px 0;
+  }
+  
+  .form-section {
+    width: 75%;
+    padding: 40px;
+    background: #fff;
+  }
+  
+  .form-section h1 {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  .section {
+    margin-bottom: 30px;
+  }
+  
+  .section-title {
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 15px;
+  }
+  
+  .dot {
+    width: 12px;
+    height: 12px;
+    background: #007bff;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  
+  .form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  input[type="text"],
+  input[type="date"],
+  textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    width: 100%;
+  }
+  
+  textarea {
+    resize: vertical;
+    height: 80px;
+  }
+  
+  .icon-row {
+    display: flex;
+    gap: 20px;
+    font-size: 24px;
+    color: #007bff;
+    margin-top: 5px;
+  }
+  
+  .submit-btn {
+    margin-top: 30px;
+    display: block;
+    padding: 15px 25px;
+    background: #007bff;
+    color: #fff;
+    font-size: 16px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+  .submit-btn:hover {
+    background: #0056b3;
+  }
+  
